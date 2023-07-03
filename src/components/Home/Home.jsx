@@ -1,7 +1,7 @@
 import React,{useEffect} from 'react';
 import './Home.css';
 import video from '../../Assets/video.mp4';
-// import {GrLocation} from 'react-icons/gr'
+import {GrLocation} from 'react-icons/gr'
 import {HiFilter} from 'react-icons/hi'
 import{FiFacebook}from 'react-icons/fi'
 import {AiOutlineInstagram} from 'react-icons/ai'
@@ -32,7 +32,7 @@ const Home = () => {
             <label htmlFor="city">Search your destination:</label>
             <div className="input flex">
               <input type="text" placeholder='Enter name here.....'/>
-              {/* <GrLocation className="icon"/> */}
+              <GrLocation className="icon"/>
             </div>
           </div>
           <div className="dateinput">
